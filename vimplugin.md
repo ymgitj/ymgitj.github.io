@@ -1,35 +1,35 @@
-#####vim-easymotion<h5>
+#####vim-easymotion
 > 移动插件
 > junegunn/vim-plug
 > call plug#begin()
 > Plug 'mattn/emmet-vim'
 > call plug#end()
-#####Emmet编辑html，css<h5>
+#####Emmet编辑html，css
 > config
 > let g:user_emmet_expandabbr_key='<c-e>'默认<c-y>
 > delimitMate
-##### delimitMate 用于补全括号和引号<h5>>
+#####delimitMate 用于补全括号和引号
 > (换行不空行)
 > {
 > }
-##### auto-pairs.vim<h5>>
+#####auto-pairs.vim
 >     用于补全括号和引号(换行自动空一行)
 >     {
 > 
 >     }
-##### neocomplcache.vim<h5>>
+#####neocomplcache.vim
 >  补全，缓存，对输过的检测显示补全词
 >  let g:neocomplcache_enable_at_startup=1
 >  设置启动vim启动插件
 >  let g:neocomplcache_disable_auto_complete=1
 >  设置不显示补全列表
-##### repeat.vim<h5>>
+#####repeat.vim
 >  用"."重复上次执行的命令
 >  rename.vim
 >  重命名
 >  nmap <F2> :Rename<Space>
 > 
-##### airline<h5>>
+#####airline
 >  http://blog.csdn.net/Demorngel/article/details/69054489￼
 >  //nerdcommenter
 >  为程序添加注释
@@ -46,7 +46,7 @@
 > 10、\ca 转换注释的方式，比如： /**/和//
 > 11、\cl \cb 左对齐和左右对其，左右对其主要针对/**/
 > 12、\cu 取消注释
-##### NerdTree<h5>>
+#####NerdTree
 > shift-R进行手动刷新目录
 > 
 > 
